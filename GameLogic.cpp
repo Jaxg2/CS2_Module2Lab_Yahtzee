@@ -1,5 +1,6 @@
 #include "GameLogic.h"
 #include "Die.h"
+#include "ConsoleUI.h"
 
 #include <iostream>
 using namespace std;
@@ -14,12 +15,17 @@ GameLogic::GameLogic()
 void GameLogic::rollAll()
 {
 	Die die;
+	//ConsoleUI ConsoleUI;
 
 	for (int i = 0; i < 5; i++)
 	{
 		die.roll();
 	}
 
+	switch (kept)
+	{
+
+	}
 	
 }
 

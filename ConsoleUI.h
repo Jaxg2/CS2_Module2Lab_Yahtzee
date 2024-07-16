@@ -7,6 +7,7 @@ private:
 	int kept;
 	
 public:
+	ConsoleUI();
 	int getKept();
 
 };
