@@ -1,6 +1,5 @@
-#pragma once
-#ifndef DIE
-#define DIE
+#ifndef DIE_H
+#define DIE_H
 
 #include <iostream>
 #include <string>
@@ -12,6 +11,7 @@ private:
 	int faceValue;
 	const int SIDES;
 public:
+	Die();
 	void roll();
 	int getFaceValue();
 	string printDie();

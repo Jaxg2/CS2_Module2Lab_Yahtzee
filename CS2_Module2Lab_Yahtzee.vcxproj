@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConsoleUI.h" />
     <ClInclude Include="Die.h" />
+    <ClInclude Include="GameLogic.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleUI.cpp" />
     <ClCompile Include="Die.cpp" />
+    <ClCompile Include="GameLogic.cpp" />
+    <ClCompile Include="Yahtzee.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
