@@ -1,7 +1,7 @@
 #include "Die.h"
 #include "GameLogic.h"
 
-Die::Die() : SIDES(6)
+Die::Die() : SIDES(6), 
 {
 	//Default constructor
 	

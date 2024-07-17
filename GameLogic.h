@@ -12,11 +12,12 @@ class GameLogic
 private:
 	int totalScore;
 	const int ROUNDS;
-	vector <Die> Dice;
+	Die dice[5];
 public:
 	GameLogic();
 	int getScore();
 	void rollAll();
+	void play();
 };
 
 #endif
