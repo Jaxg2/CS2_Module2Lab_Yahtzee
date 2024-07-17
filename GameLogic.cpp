@@ -14,19 +14,12 @@ GameLogic::GameLogic()
 
 void GameLogic::rollAll()
 {
-	Die die;
-	//ConsoleUI ConsoleUI;
-
-	for (int i = 0; i < 5; i++)
-	{
-		die.roll();
-	}
-
-	switch (kept)
-	{
-
-	}
 	
+}
+
+void GameLogic::settotalScore()
+{
+
 }
 
 int GameLogic::gettotalScore()

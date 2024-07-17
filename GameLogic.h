@@ -11,9 +11,12 @@ class GameLogic
 private:
 	int totalScore;
 	int rounds;
+	//Die dice[5];
+
 public:
-	int gettotalScore();
 	GameLogic();
+	int gettotalScore();
+	void settotalScore();
 	void rollAll();
 	int getRounds();
 
