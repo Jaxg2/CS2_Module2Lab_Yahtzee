@@ -8,6 +8,9 @@ using namespace std;
 
 int main()
 {
+	Die die;
 
+	die.roll();
+	die.printDie();
 
 }

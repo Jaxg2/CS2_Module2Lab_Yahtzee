@@ -10,7 +10,7 @@ class Die
 private:
 	int faceValue;
 	const int SIDES;
-	int dice[5];
+	//int dice[5];
 public:
 	Die();
 	void roll();

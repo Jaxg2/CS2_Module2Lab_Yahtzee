@@ -5,10 +5,9 @@
 #include <iostream>
 using namespace std;
 
-GameLogic::GameLogic()
+GameLogic::GameLogic() : ROUNDS (3), Dice (5)
 {
 	totalScore = 0;
-	rounds = 0;
 }
 
 
@@ -17,17 +16,7 @@ void GameLogic::rollAll()
 	
 }
 
-void GameLogic::settotalScore()
-{
-
-}
-
-int GameLogic::gettotalScore()
+int GameLogic::getScore()
 {
 	return totalScore;
-}
-
-int GameLogic::getRounds()
-{
-	return rounds;
 }
