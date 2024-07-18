@@ -4,11 +4,12 @@
 class ConsoleUI
 {
 private:
-	int kept;
+	bool kept[5];
 	
 public:
 	ConsoleUI();
-	int getKept();
+	void displayDie(Die dice [5]);
+	void getKept(bool kept[5]);
 
 };
 

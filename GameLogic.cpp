@@ -19,9 +19,15 @@ void GameLogic::rollAll()
 	}
 }
 
-void GameLogic::rollSpec()
+void GameLogic::rollSpec(bool kept[5])
 {
-
+	for (int i = 0; i < 5; i++)
+	{
+		if (kept[i] == 1)
+		{
+			dice[i].roll();
+		}
+	}
 }
 
 int GameLogic::getScore()

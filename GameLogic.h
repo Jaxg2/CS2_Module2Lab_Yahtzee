@@ -2,6 +2,7 @@
 #define GAMELOGIC_H
 
 #include "Die.h"
+#include "ConsoleUI.h"
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -17,7 +18,7 @@ public:
 	GameLogic();
 	int getScore();
 	void rollAll();
-	void rollSpec();
+	void rollSpec(bool kept[5]);
 	void play();
 
 };
