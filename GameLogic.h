@@ -17,7 +17,9 @@ public:
 	GameLogic();
 	int getScore();
 	void rollAll();
+	void rollSpec();
 	void play();
+
 };
 
 #endif

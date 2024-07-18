@@ -13,11 +13,25 @@ GameLogic::GameLogic() : ROUNDS(3)
 
 void GameLogic::rollAll()
 {
-	
+	for (int i = 0; i < 5; i++)
+	{
+		dice[i].roll();
+	}
+}
+
+void GameLogic::rollSpec()
+{
+
 }
 
 int GameLogic::getScore()
 {
+
+	for (int i = 0; i < 5; i++)
+	{
+		totalScore += dice[i].getFaceValue();
+	}
+
 	return totalScore;
 }
 

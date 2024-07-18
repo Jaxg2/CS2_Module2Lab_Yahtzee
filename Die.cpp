@@ -1,7 +1,7 @@
 #include "Die.h"
 #include "GameLogic.h"
 
-Die::Die() : SIDES(6), 
+Die::Die() : SIDES(6)
 {
 	//Default constructor
 	
@@ -11,13 +11,8 @@ Die::Die() : SIDES(6),
 void Die::roll()
 {
 	//Changes the value of the die to a random number between 1 and 6
-	GameLogic gamelogic;
-
-	for (int i = 0; i < 5; i++)
-	{
-		faceValue = (rand() % SIDES + 1);
-		dice[i] = faceValue;
-	}
+		
+	faceValue = (rand() % SIDES + 1);
 }
 
 void Die::reRoll()
