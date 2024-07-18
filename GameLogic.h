@@ -16,10 +16,11 @@ private:
 	Die dice[5];
 public:
 	GameLogic();
-	int getScore();
+	int gettotalScore();
 	void rollAll();
 	void rollSpec(bool kept[5]);
-	void play();
+	void displayDie();
+	void game();
 
 };
 

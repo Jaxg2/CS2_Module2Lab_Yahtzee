@@ -8,9 +8,9 @@ private:
 	
 public:
 	ConsoleUI();
-	void displayDie(Die dice [5]);
+	void displayDie();
 	void getKept(bool kept[5]);
-
+	void displayFinalScore();
 };
 
 #endif
