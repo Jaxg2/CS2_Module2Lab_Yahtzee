@@ -15,31 +15,10 @@ void Die::roll()
 	faceValue = (rand() % SIDES + 1);
 }
 
-void Die::reRoll()
-{
-	//Try a switch
-	
-}
-
 int Die::getFaceValue()
 {
 	//Returns the current face value
 
 	return faceValue;
-
-}
-
-string Die::printDie()
-{
-	//Returns a string description of the Die
-
-	string print;
-
-	for (int i = 0; i < 5; i++)
-	{
-		string print = "You have rolled a " + dice[i];
-		cout << endl;
-	}
-	return print;
 
 }

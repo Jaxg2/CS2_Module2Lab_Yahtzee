@@ -13,9 +13,7 @@ private:
 public:
 	Die();
 	void roll();
-	void reRoll();
 	int getFaceValue();
-	string printDie();
 };
 
 #endif

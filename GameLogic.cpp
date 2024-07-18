@@ -43,5 +43,11 @@ int GameLogic::getScore()
 
 void GameLogic::play()
 {
+	ConsoleUI consoleui;
 
+	for (int i = 0; i < ROUNDS; i++)
+	{
+		rollAll();
+		consoleui.displayDie(dice);
+	}
 }
